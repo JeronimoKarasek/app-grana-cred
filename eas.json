@@ -1,0 +1,13 @@
+{
+  "cli": { "version": ">= 13.0.0" },
+  "build": {
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_WEBHOOK_URL": "https://weebkarasek.farolbase.com/webhook/paranaappgrana",
+        "EXPO_PUBLIC_WHATSAPP_URL": "https://wa.me/18998008009",
+        "EXPO_PUBLIC_HOWTO_IMAGE_URL": "https://SEU-DOMINIO/passos_autorizar.png"
+      }
+    }
+  },
+  "submit": { "production": {} }
+}
